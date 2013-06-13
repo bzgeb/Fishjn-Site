@@ -14,7 +14,7 @@ var express = require('express')
 var mc_api_key = process.env.MC_API_KEY;
 var mc_newsletter_id = process.env.MC_NEWSLETTER_ID;
 
-var mc_interest_group = "Skipping Stones Release Announcement";
+var mc_interest_group = "General All Purpose";
 
 try { 
     var api = new MailChimpAPI(mc_api_key, { version : '1.3', secure : false });
